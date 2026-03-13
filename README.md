@@ -13,6 +13,7 @@
 
 The first version targets **dementia incidence prediction** using VA (Veterans Affairs) structured clinical data. The architecture is intentionally designed to accommodate future multimodal inputs — including clinical notes (NLP) and medical imaging — without requiring a full rewrite.
 
+Note: Due to VA data governance policies, the datasets used in this repository cannot be publicly distributed. All experiments are designed to be reproducible using user-provided clinical datasets with similar schema.
 ---
 
 ## Research Objective
@@ -25,6 +26,11 @@ Develop and validate a contrastive survival model that:
 4. Provides a modular backbone ready for multimodal fusion in future work.
 
 ---
+
+See the project documentation for architecture details:
+
+docs/architecture.md  
+docs/flagship_project_mm_survival.md
 
 ## Repository Structure
 
@@ -105,3 +111,7 @@ The framework is architected to support additional input modalities beyond struc
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
+## Citation
+
+If you use this framework in your research, please cite:
